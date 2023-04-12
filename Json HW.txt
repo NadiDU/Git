@@ -1,0 +1,23 @@
+GIT Homework 1
+
+Файл со сценарием и ссылку на свой гит хаб отправляйте менторам на проверку.
+
+JSON
+ 4. Создать внешний репозиторий c названием JSON. [create repo] 
+ 5. Клонировать репозиторий JSON на локальный компьютер. [git clone "ссылка на репозиторий"]
+ 6. Внутри локального JSON создать файл “new.json”. [cd Json] [touch File.json ]
+ 7. Добавить файл под гит. [git add File.json]
+ 8. Закоммитить файл. [git commit -m "add File.json"]
+ 9. Отправить файл на внешний GitHub репозиторий. [git push]
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON. [vim File.json] [i] [create info] [esq :wq]
+ 11. Отправить изменения на внешний репозиторий. [git add File.json] [git commit -m "mod File.json"] [git push]
+ 12. Создать файл preferences.json [touch preferences.json]
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON. [vim File.json] [i] [create info] [esq :wq]
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON [touch skills.json]  [vim File.json] [i] [create info] [esq :wq]
+ 15. Отправить сразу 2 файла на внешний репозиторий. [git add .] [git commit -m "mod foles"] [git push]
+ 16. На веб интерфейсе создать файл bug_report.json. [click add file] [click Create new file bug_report.json] 
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. [click Commit changes]
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON. [редактировать инфо]
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе. [click Commit changes]
+ 20. Синхронизировать внешний и локальный репозиторий JSON [git pull]
+
